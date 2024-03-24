@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "on=true": { "model": "pd:block/display_on" },
+    "on=false": { "model": "pd:block/display_off" }
+  }
+}

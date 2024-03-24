@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pd",
+  "version": "${version}",
+  "name": "Programmable Displays",
+  "description": "A mod, that gives you ability to create and program your own displays as you want!",
+  "authors": [
+    "SonicallGameX",
+    "mijgui"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.sgx.pd.client.ProgrammableDisplaysClient"
+    ],
+    "main": [
+      "me.sgx.pd.ProgrammableDisplays"
+    ]
+  },
+  "mixins": [
+    "pp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
